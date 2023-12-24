@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-note{
+    background-color: black;
+    padding: 13px 0;
+    text-align: center;
+    font-size: 13px;
+}
+
+.header-note_text{
+    color: white;
+    text-decoration: none;
+}
+
+.header-nav{
+    height: 95px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav_menu{
+    height: 40px;
+    width: 40px;
+    border: none;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.header-nav_logo{
+    width: 200px;
+    background-color: black;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 120px;
+}
+
+.header-nav_logo_text{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.header-nav_rightbox{
+    margin-right: 20px;
+}
+
+.rightbox-icon{
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+#container{
+    position: relative;
+    width: 100%;
+}
+.container-banner{
+    display: flex;
+    height: 750px;
+    background: url(/asset/img/newbackground.png) center no-repeat;
+    justify-content: center;
+}
+
+.container-banner_box {
+    position: absolute;
+    display: inline-block;
+    bottom: 0px;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.container-banner_box_text{
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 0 0 30px 0;
+}
+
+.container-banner_box_btn{
+    padding: 15px 140px;
+    font-size: 16px;
+    margin-left: 18px;
+    letter-spacing: 4px;
+}
