@@ -25,3 +25,17 @@ document.querySelector('.next').addEventListener('click', function() {
       behavior: 'smooth'
     });
   });
+
+  document.querySelector('.next-feedback').addEventListener('click', function() {
+    document.querySelector('.feedback-list_container').scrollBy({
+      left: 400, // Thay đổi giá trị này để điều chỉnh khoảng cách scroll
+      behavior: 'smooth'
+    });
+  });
+  
+  document.querySelector('.prev-feedback').addEventListener('click', function() {
+    document.querySelector('.feedback-list_container').scrollBy({
+      left: -400, // Thay đổi giá trị này để điều chỉnh khoảng cách scroll
+      behavior: 'smooth'
+    });
+  });
