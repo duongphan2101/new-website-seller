@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Seller</title>
+    <link rel="shortcut icon" href="./asset/img/NS_LOGO.png">
     <link rel="stylesheet" href="./asset/css/style.css">
     <link rel="stylesheet" href="./asset/Font/fontawesome-free-6.4.0-web/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,7 +33,7 @@
                 <div class="header-nav_bigbox bigbox-right">
                     
                     <div class="header-nav_rightbox">
-                        <a href="#" class="header-nav_rightbox_search rightbox-icon">
+                        <a href="#" class="header-nav_rightbox_search rightbox-icon" id="open-search-btn">
                             <img class="rightbox-icon-img" src="/asset/img/search-interface-symbol.png" alt="" style="width: 20px;">
                         </a>
                         <a href="#" class="header-nav_rightbox_cart rightbox-icon">
@@ -80,7 +81,7 @@
                     <div class="prod-background">
                         <a href="#">
 
-                            <img class="prod-background_img" src="/asset/img/FINALSTHINGTEE-G1.webp" alt="">
+                            <img class="prod-background_img" src="./asset/img/FINALSTHINGTEE-G1.webp" alt="">
 
                         </a>
                     </div>
@@ -101,7 +102,7 @@
                     <div class="prod-background">
                         <a href="#">
 
-                            <img class="prod-background_img" src="/asset/img/2023KNITPOLO-BB1.webp" alt="">
+                            <img class="prod-background_img" src="./asset/img/2023KNITPOLO-BB1.webp" alt="">
 
                         </a>
                     </div>
@@ -125,7 +126,7 @@
                     <div class="prod-background">
                         <a href="#">
 
-                            <img class="prod-background_img" src="/asset/img/2023KNITPOLO-B1.webp" alt="">
+                            <img class="prod-background_img" src="./asset/img/2023KNITPOLO-B1.webp" alt="">
 
                         </a>
                     </div>
@@ -622,7 +623,10 @@
                         <li>Outfit</li>
                         <li>Blogs
 
-
+                            <ul class="ul-2 ul">
+                                <li class="li-2"><a class="li-2_link" href="#">Xu Hướng Thời Trang</a></li>
+                                <li class="li-2"><a class="li-2_link" href="#">Kiến Thức Thời Trang</a></li>
+                            </ul>
                             <i class="fa fa-arrow-right" aria-hidden="true"></i>
                         </li>
                         <li>Crew</li>
@@ -632,12 +636,26 @@
                         <li>Recruitment</li>
                         <li>Promotion
 
-
+                            <ul class="ul-2 ul">
+                                <li class="li-2"><a class="li-2_link" href="#">New Year Special Sale</a></li>
+                                <li class="li-2"><a class="li-2_link" href="#">Outlet Sale</a></li>
+                            </ul>
                             <i class="fa fa-arrow-right" aria-hidden="true"></i>
                         </li>
                     </ul>
                 </div>
 
+            </div>
+        </div>
+
+        <!--Search-->
+        <div id="search-modal" class="search-open">
+            <div class="box-search">
+                <div class="inp-search">
+                    <input type="search" class="inp-inp_search" placeholder="Tìm Kiếm">
+                    <button class="inp-search_btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+                <button id="search_btnclose"><i class="fa-solid fa-xmark"></i></button>
             </div>
         </div>
     </div>

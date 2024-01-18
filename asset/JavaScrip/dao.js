@@ -59,5 +59,23 @@ window.onclick = function(event) {
   }
 };
 
+var opens = document.getElementById("open-search-btn");
+var modals = document.getElementById("search-modal");
+var closes = document.getElementById("search_btnclose");
+
+opens.onclick = function() {
+  modals.style.display = "block";
+};
+
+closes.onclick = function() {
+  modals.style.display = "none";
+};
+
+window.onclick = function(event) {
+  if (event.target == modals) {
+    modals.style.display = "none";
+  }
+};
+
 
 
